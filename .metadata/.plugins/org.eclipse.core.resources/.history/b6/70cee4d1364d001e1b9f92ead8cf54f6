@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class logicaloperator {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter the first number");
+		int a=sc.nextInt();
+		System.out.println((20%2==0)&&(20%3==1));
+		
+	}
+
+}

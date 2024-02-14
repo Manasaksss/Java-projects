@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class logicaloperator {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter the first number");
+		Scanner scanner1 = new Scanner(System.in);
+		System.out.println("enter the second number");
+		System.out.println("+,-,*,/");
+		
+	}
+
+}

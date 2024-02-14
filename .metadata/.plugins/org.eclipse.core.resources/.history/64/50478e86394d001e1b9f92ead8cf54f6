@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class logicaloperator {
+
+	public static void main(String[] args) {
+	  int c=5;
+	  int d=6;
+	  String result=(c>d)?"c is greater":"d is greater";
+	  System.out.println("Result:"+result);
+		}
+		
+	}
+

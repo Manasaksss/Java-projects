@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define beans for the shapes -->
+    <bean id="triangle" class="Q4.A4.Triangle" />
+    <bean id="rectangle" class="Q4.A4.Rectangle" />
+    <bean id="square" class="Q4.A4.Square" />
+
+</beans>

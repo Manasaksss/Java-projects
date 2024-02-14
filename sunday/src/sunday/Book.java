@@ -1,0 +1,34 @@
+package sunday;
+
+public class Book {
+
+	private int bookNo = 1234;
+	private String title = "qwe";
+	private String author = "vbn";
+	
+	public int getBookNo() {
+		return bookNo;
+	}
+
+	public void setBookNo(int bookNo) {
+		this.bookNo = bookNo;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+		
+	}
+
+}

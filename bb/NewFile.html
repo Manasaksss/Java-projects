@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 4 Exercise</title>
+<script>function answer(){
+	let x =document.forms["myForm"]["b1"].value;
+	let y =document.forms["myForm"]["b2"].value;
+	var rem,Sum=0;
+	var n=parselnt(y);
+	while(n!=0)
+	{
+		rem=n%10;
+		n=parselnt(n/10);
+		sum=sum+rem;
+	}
+	if(parselnt(x)==sum){
+		alert("sum of digits in number is equal to given number");
+	}
+        else{
+	alert("sum of digits in number is not equal to given number");
+	}
+        }
+
+</script>
+</head>
+<body>
+	<h2>js</h2>
+	<form name=""myform"action="/
+	success.html"onsubmit="return
+	answer()"method="POST">
+	sum:<input type="number"
+	name="b2">
+	num:<input type=""number"
+	name="b2">
+	<input type="submit" value="submit">
+	</form>
+</body>
+</html>

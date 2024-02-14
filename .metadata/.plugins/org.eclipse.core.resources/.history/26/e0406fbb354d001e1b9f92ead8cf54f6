@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class logicaloperator {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter the first number");
+		int a=sc.nextInt();
+		Scanner sc1 =new Scanner(System.in);
+		System.out.println("enter the second number");
+		int b=sc1.nextInt();
+		System.out.println((a+b));
+		
+	}
+
+}

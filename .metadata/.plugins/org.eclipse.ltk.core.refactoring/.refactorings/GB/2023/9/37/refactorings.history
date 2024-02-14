@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.Example1.GB.App.java&apos; to &apos;delete.java&apos;&#x0D;&#x0A;- Original project: &apos;GB&apos;&#x0D;&#x0A;- Original element: &apos;com.Example1.GB.App.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Example1.GB.delete.java&apos;" description="Rename compilation unit &apos;App.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Example1.GB{App.java" name="delete.java" references="false" stamp="1694711086769" version="1.0"/>
+</session>

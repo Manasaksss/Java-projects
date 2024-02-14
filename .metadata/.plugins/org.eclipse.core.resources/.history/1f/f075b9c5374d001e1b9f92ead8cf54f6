@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class logicaloperator {
+
+	public static void main(String[] args) {
+		if(5<2) {
+			System.out.println("greater");
+		}
+			else {
+				System.out.println("lesser");
+			}
+		}
+		
+	}

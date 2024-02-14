@@ -1,0 +1,9 @@
+127.0.0.1 - - [27/Aug/2023:21:44:21 -0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:21:44:23 -0700] "GET /hotel/hotel-registration.jsp HTTP/1.1" 200 1320
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:21:44:23 -0700] "GET /hotel/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:21:44:23 -0700] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:21:45:14 -0700] "POST /hotel/hotel_management1 HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:21:48:32 -0700] "GET /project6/index.jsp HTTP/1.1" 200 1022
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:21:48:32 -0700] "GET /project6/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:21:49:23 -0700] "GET /project6/index.jsp HTTP/1.1" 200 1022
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:21:49:46 -0700] "GET /project6/index.jsp?Name=hhjkk&Address=hjgkjlik&Phone_Number=674898&Email=nmv%40gmail.com HTTP/1.1" 200 1022

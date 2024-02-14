@@ -1,0 +1,48 @@
+package Inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Samsong s = new Samsong();
+		Nokia n = new Nokia();
+        Xiaomi x = new Xiaomi();
+        
+		s.setColor("red");
+		s.setCost(10000);
+		s.setRAM("4GB");
+		s.setAndroid_varsion("Android pie");
+		
+		n.setColor("blue");
+		n.setCost(100000);
+		n.setRAM("6GB");
+		n.setAndroid_varsion("Android pie");
+		
+		x.setColor("green");
+		x.setCost(1000000);
+		x.setRAM("8GB");
+		x.setAndroid_varsion("Android pie");
+		
+		
+		System.out.println("Samsong mobile details");
+		System.out.println("cost:"+s.getCost());
+		System.out.println("color:"+s.getColor());
+		System.out.println("RAM:"+s.getRAM());
+		System.out.println("Samsong Android_varsion:"+s.getAndroid_varsion());
+		
+		System.out.println("Nokia mobile details");
+		System.out.println("cost:"+n.getCost());
+		System.out.println("color:"+n.getColor());
+		System.out.println("RAM:"+n.getRAM());
+		System.out.println("Nokia Android_varsion:"+s.getAndroid_varsion());
+		
+		System.out.println("Xiaomi mobile details");
+		System.out.println("cost:"+x.getCost());
+		System.out.println("color:"+x.getColor());
+		System.out.println("RAM:"+x.getRAM());
+		System.out.println("Xiaomi Android_varsion:"+x.getAndroid_varsion());
+		
+		System.out.println("prg finished");
+		
+	}
+
+}

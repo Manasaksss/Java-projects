@@ -1,0 +1,26 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Customer c1 = new Customer();
+		c1.setCustId(112);
+		c1.setName("bnm");
+		c1.setEmail("bnm@gmail.com");
+		c1.setLocation("hassan");
+		c1.showCustomerDetails();
+		Customer c2 = new Customer();
+		c2.setCustId(112);
+		c2.setName("nbm");
+		c2.setEmail("sddm@gmail.com");
+		c2.setLocation("h");
+		c2.showCustomerDetails();
+		Customer c3 = new Customer();
+		c3.setCustId(112);
+		c3.setName("hh");
+		c3.setEmail("aa@gmail.com");
+		c3.setLocation("ha");
+		c3.showCustomerDetails();
+
+	}
+
+}

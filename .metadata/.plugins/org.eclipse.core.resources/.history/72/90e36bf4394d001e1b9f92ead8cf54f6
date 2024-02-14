@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class logicaloperator {
+
+	public static void main(String[] args) {
+	  Scanner sc=new Scanner(System.in);
+	  System.out.println("Enter first number");
+	  int c= sc. nextInt(); 
+	  Scanner sc1=new Scanner(System.in);
+	  System.out.println("Enter first number");
+	  int d= sc1. nextInt();
+	  String result=(c>d)?"c is greater":"d is greater";
+	  System.out.println("Result:"+result);
+		}
+		
+	}
+

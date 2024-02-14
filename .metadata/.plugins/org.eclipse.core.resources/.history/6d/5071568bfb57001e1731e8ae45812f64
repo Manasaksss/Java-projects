@@ -1,0 +1,18 @@
+package Inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Samsong s = new Samsong();
+		s.setColor("red");
+		s.setCost(10000);
+		s.setRAM("4GB");
+		s.setAndroid_varsion("Android pie");
+		System.out.println("Samsong mobile details");
+		System.out.println("cost:"+s.getCost());
+		System.out.println("color:"+s.getColor());
+		System.out.println("RAM:"+s.getRAM());
+		System.out.println("Samsong Android_varsion:"+s.getAndroid_varsion());
+	}
+
+}

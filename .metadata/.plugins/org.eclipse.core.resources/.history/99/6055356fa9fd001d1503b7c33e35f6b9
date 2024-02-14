@@ -1,0 +1,12 @@
+package assingment;
+
+public class Constructor1 {
+private static int count = 0;
+Constructor1(){
+	count++;
+}
+public static int getCount() {
+	return count;
+}
+}
+

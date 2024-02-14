@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Registration</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+</header>
+<h1>Hotel Registration</h1>
+    <a href="registration-details.jsp" class="btn">View Details</a>
+  </header>
+  <main>
+    <form action=hotel_management1 method="POST">
+      <label>Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label>Date of Check-in:</label>
+      <input type="date" id="check_in_date" name="check_in_date" required>
+      <label>Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label>Number of Days:</label>
+      <input type="number" id="Number_of_Days" name="Number_of_Days" required>
+      <label>Address:</label>
+      <input type="text" id="address" name="address" required>
+      <label>Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label>Date of Check-out:</label>
+      <input type="date" id="check-out-date" name="check_out_date" required>
+      <label>Emergency Contact:</label>
+      <input type="text"  name="emergency_contact" required>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>

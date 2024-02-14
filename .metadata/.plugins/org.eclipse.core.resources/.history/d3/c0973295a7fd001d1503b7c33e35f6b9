@@ -1,0 +1,23 @@
+package assingment;
+
+import java.util.Scanner;
+
+public class BookDetails {
+			public static void main(String[] args) {
+			Scanner scanner = new Scanner(System.in);
+			Book book = new Book();
+			int bookNo = 1234;
+			String title = "qwe";
+			String author = "madhu";
+			float price = 5000;
+			System.out.println("please enter follwing values Book you need");
+			System.out.println("Enter book number");
+			bookNo=scanner.nextInt();
+			book.setPrice(price);
+			System.out.println("Book Number : "+book.getBookNo());
+			System.out.println("Book Title : "+book.getTitle());
+			System.out.println("Book Author :"+book.getAuthor());
+			System.out.println("Book Price :"+book.getPrice());
+	}
+
+}
